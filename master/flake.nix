@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-windy-master.flake = false;
+  inputs.src-windy-master.ref   = "refs/heads/master";
   inputs.src-windy-master.owner = "treeform";
-  inputs.src-windy-master.ref   = "master";
   inputs.src-windy-master.repo  = "windy";
   inputs.src-windy-master.type  = "github";
   
