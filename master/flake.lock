@@ -378,11 +378,11 @@
     "src-windy-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1647815713,
-        "narHash": "sha256-nEDCvuNLf62GBEsMYUV9SnC//jQbwbVVGxtRImzM29A=",
+        "lastModified": 1648181049,
+        "narHash": "sha256-eQULx/ufUheEeilnrE2RHrnogFlH0jD3Sxxm/jucQB8=",
         "owner": "treeform",
         "repo": "windy",
-        "rev": "86142876baba6c7ad024b2ec5003dd254566c0b3",
+        "rev": "66ba436f3b0896f70ec99b53c2b44512b67988a6",
         "type": "github"
       },
       "original": {
