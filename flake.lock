@@ -3,10 +3,12 @@
     "bumpy": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -33,10 +35,12 @@
     "chroma": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -44,11 +48,11 @@
       },
       "locked": {
         "dir": "0_2_5",
-        "lastModified": 1656300819,
-        "narHash": "sha256-ELfsKlYPLnq8wKmjzIpONL8MvilsF4oWM17S0fXpbvA=",
+        "lastModified": 1648162981,
+        "narHash": "sha256-fC5iBZSNr9EM8KocdWZoOdjqBZToRMDwiC4Fq8IrbZg=",
         "owner": "nim-nix-pkgs",
         "repo": "chroma",
-        "rev": "e72bb9946ac9ab16c11640b8f42a53f06d839267",
+        "rev": "1852336607f2ac1ed5c842f56765a6b43cae45f2",
         "type": "github"
       },
       "original": {
@@ -83,10 +87,12 @@
     "flatty": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -112,10 +118,12 @@
     "nimsimd": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -153,9 +161,11 @@
     "opengl": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "nixpkgs"
         ],
         "src-opengl-1_2_6": "src-opengl-1_2_6",
@@ -163,11 +173,11 @@
       },
       "locked": {
         "dir": "1_2_6",
-        "lastModified": 1656301850,
-        "narHash": "sha256-Btf/Tz339FsXj3b5Nvejg6njPqh0VIy7wiIOk7MTuwg=",
+        "lastModified": 1650754842,
+        "narHash": "sha256-YGiP6LLNNt+k+cNDN2eAO8Zk1+neBUvk9GldywrF+4w=",
         "owner": "nim-nix-pkgs",
         "repo": "opengl",
-        "rev": "4fdadeadc748d69e22a455ed449b883d80d2b87b",
+        "rev": "f3e774f1061f01d9bb728a7a019dcf3ed2613f9a",
         "type": "github"
       },
       "original": {
@@ -183,11 +193,13 @@
         "bumpy": "bumpy",
         "chroma": "chroma",
         "flakeNimbleLib": [
+          "windy-master",
           "flakeNimbleLib"
         ],
         "flatty": "flatty",
         "nimsimd": "nimsimd",
         "nixpkgs": [
+          "windy-master",
           "nixpkgs"
         ],
         "src-pixie-4_4_0": "src-pixie-4_4_0",
@@ -215,12 +227,7 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "opengl": "opengl",
-        "pixie": "pixie",
-        "src-windy-master": "src-windy-master",
-        "urlly": "urlly",
-        "ws": "ws",
-        "zippy": "zippy_2"
+        "windy-master": "windy-master"
       }
     },
     "src-bumpy-1_1_1": {
@@ -379,11 +386,11 @@
     "src-windy-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1656019392,
-        "narHash": "sha256-nvtPIE/t0TQD0HZCcqZOo1MtZH2aFCUwF//XHQCqe5M=",
+        "lastModified": 1648516368,
+        "narHash": "sha256-qQAjJbLaKzvuDo7rTuUgtmbJOfz8CLPyaBoVFqpieec=",
         "owner": "treeform",
         "repo": "windy",
-        "rev": "bba338590dbf30fc3418f5b749b9689a80a1df04",
+        "rev": "73579887ee87d4aaf1d48bcf0f92157c3a4c4d55",
         "type": "github"
       },
       "original": {
@@ -464,20 +471,22 @@
     "urlly": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "nixpkgs"
         ],
         "src-urlly-1_0_0": "src-urlly-1_0_0"
       },
       "locked": {
         "dir": "1_0_0",
-        "lastModified": 1656298179,
-        "narHash": "sha256-XFWNYhwRJ6wqEO3p6cOC9hpyy47zLL4ONaXdfsASH1k=",
+        "lastModified": 1650750660,
+        "narHash": "sha256-ZVaC0wPRnGkUligzfPAEcecU+EIpQrw1y570TZJpSgw=",
         "owner": "nim-nix-pkgs",
         "repo": "urlly",
-        "rev": "ef611a02aff9deaa55b469aa1f86d35b6d9ab6a2",
+        "rev": "734f22e4ba4f41a87116eac4655dfd7d250de5aa",
         "type": "github"
       },
       "original": {
@@ -491,11 +500,13 @@
     "vmath": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "bumpy",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "bumpy",
           "nixpkgs"
@@ -504,11 +515,11 @@
       },
       "locked": {
         "dir": "1_1_4",
-        "lastModified": 1653699647,
-        "narHash": "sha256-G27oiEzyg8GQ8BP0BVPqJus+hqpypKfbI6pU1FnR6jg=",
+        "lastModified": 1650755519,
+        "narHash": "sha256-DYSNHUVSV8w7yhLUn3XPWs2AtAPddXaRYJ5OhasbpXI=",
         "owner": "nim-nix-pkgs",
         "repo": "vmath",
-        "rev": "23f787e0f9cf4380d243b21dab8f4f15e2765f2b",
+        "rev": "17a45a236ed29c0714f373eef267de3ddc9d57b6",
         "type": "github"
       },
       "original": {
@@ -522,10 +533,12 @@
     "vmath_2": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -533,11 +546,11 @@
       },
       "locked": {
         "dir": "1_1_4",
-        "lastModified": 1656301884,
-        "narHash": "sha256-mSdgApsb3+8hS8ViTvdX/7h4AFMufrCKp4Vt9B/hK/M=",
+        "lastModified": 1650755519,
+        "narHash": "sha256-DYSNHUVSV8w7yhLUn3XPWs2AtAPddXaRYJ5OhasbpXI=",
         "owner": "nim-nix-pkgs",
         "repo": "vmath",
-        "rev": "d0e9c4fb710808f45dc2501344a9335053a1dfda",
+        "rev": "17a45a236ed29c0714f373eef267de3ddc9d57b6",
         "type": "github"
       },
       "original": {
@@ -548,7 +561,7 @@
         "type": "github"
       }
     },
-    "ws": {
+    "windy-master": {
       "inputs": {
         "flakeNimbleLib": [
           "flakeNimbleLib"
@@ -556,15 +569,49 @@
         "nixpkgs": [
           "nixpkgs"
         ],
+        "opengl": "opengl",
+        "pixie": "pixie",
+        "src-windy-master": "src-windy-master",
+        "urlly": "urlly",
+        "ws": "ws",
+        "zippy": "zippy_2"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1656284102,
+        "narHash": "sha256-0c1nt7O+c/9QCAzBMHrHTfW5RXf9Tj/+h0ap0Z4mS24=",
+        "owner": "nim-nix-pkgs",
+        "repo": "windy",
+        "rev": "f2fbebf17b3fa26845917588390ea42210cc8c8f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "windy",
+        "type": "github"
+      }
+    },
+    "ws": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "windy-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "windy-master",
+          "nixpkgs"
+        ],
         "src-ws-0_5_0": "src-ws-0_5_0"
       },
       "locked": {
         "dir": "0_5_0",
-        "lastModified": 1656301361,
-        "narHash": "sha256-OzQzHsnC5F7hQccIPB+np80fk3qEghRr/+g3JfDYx0I=",
+        "lastModified": 1650750683,
+        "narHash": "sha256-lxNGIFMFwi/Ay85voeOL3cRk+F31RmMhcI5TiRz1W0A=",
         "owner": "nim-nix-pkgs",
         "repo": "ws",
-        "rev": "1396ffc71f73cb6deb28ac41e011dd5687ef69a1",
+        "rev": "328b6fe19e8df7b4e51d035ac1c643616987a792",
         "type": "github"
       },
       "original": {
@@ -578,10 +625,12 @@
     "x11": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "opengl",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "opengl",
           "nixpkgs"
         ],
@@ -607,10 +656,12 @@
     "zippy": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "pixie",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "pixie",
           "nixpkgs"
         ],
@@ -636,9 +687,11 @@
     "zippy_2": {
       "inputs": {
         "flakeNimbleLib": [
+          "windy-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "windy-master",
           "nixpkgs"
         ],
         "src-zippy-0_10_2": "src-zippy-0_10_2_2"
